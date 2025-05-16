@@ -42,3 +42,17 @@ body {
   max-width: 48%;
   object-fit: cover;
 }
+
+.recipe-card ol li {
+  margin-bottom: 0.5rem;
+}
+
+.recipe-card ul,
+.recipe-card ol {
+  padding-left: 1.5rem;
+}
+
+.recipe-card h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
