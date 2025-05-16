@@ -7,6 +7,28 @@ body {
   padding: 2rem;
 }
 
-.header-image{
 
+.recipe-card{
+    background-color: white;
+    border-radius: 10px;
+    max-width:700px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+}
+
+.recipe-card img.header-img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.recipe-card h2 {
+  color: #c30000;
+  margin-top: 1rem;
+}
+
+.recipe-card p.description {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+  border-radius: 5px;
 }
